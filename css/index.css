@@ -1,0 +1,57 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/*样式表*/
+.border1{
+    border: 1px solid red;
+ }
+ul{
+    list-style: none;
+    border: 1px solid red;
+    display: inline-block;
+}
+.titles{
+    display: inline-block;
+    height: 30px;
+    width: 60px;
+
+
+}
+.selected{
+    background-color: sandybrown;
+}
+
+
+.control{
+    height: 500px;
+    width: 200px;
+    border: 1px solid black;
+}
+.block{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+}
+
+.myLi{
+    display: inline-block;
+    border: 1px solid red;
+}
+/*新闻列表配置*/
+table{
+    border: 1px solid black;
+}
+tr{
+    height: 30px;
+    width: 100px;
+    background-color: yellow;
+    /*display: inline-block;*/
+ }
+.news_content{
+    width: 240px;
+    height: 200px;
+    border: 1px solid black;
+}
+

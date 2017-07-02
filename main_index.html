@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="css/index.css" rel="stylesheet"></head>
+    <script src="js/jquery-3.2.1.min.js"></script>
+</head>
+<body>
+    <div style="width: 200px;height: 200px;border: 1px solid blueviolet"></div>
+    <div style="width: 200px;height: 200px;border: 1px solid red">
+        <div style="width: 60px;height: 20px;border: 1px solid red"></div>
+        <div style="width: 60px;height: 20px;border: 1px solid red"></div>
+    </div>
+
+
+
+
+
+<!--开始脚本内容-->
+    <script>
+        $(document).ready(function () {
+
+//            控制tabcontent
+            $("#tab_content div:eq(0)").show()
+                    .siblings().hide();
+         });
+    </script>
+
+ </body>
+</html>
